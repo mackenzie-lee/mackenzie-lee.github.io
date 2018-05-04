@@ -3,6 +3,7 @@
 
 /* * is a wildcard referring to all elements. */
 /*{ margin: 0; box-sizing: border-box; } */
+<style>
 
 body { 
     font-size: 16px; 
@@ -44,3 +45,9 @@ footer {
  clear:both;
  font-size: .85rem;
 }
+
+ol, li {
+    text-align: center;
+        }
+
+</style>
