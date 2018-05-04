@@ -42,11 +42,11 @@ img {
 }
 
 footer {
- clear:both;
+ clear: both;
  font-size: .85rem;
 }
 
-ol, li {
+li {
     text-align: center;
         }
 
