@@ -1,0 +1,72 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: Karla, sans-serif;
+}
+
+header, nav, main, footer { 
+    max-width: 37.5em; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {}
+
+header h1 {
+    font-family: Abril Fatface, sans-serif;
+}
+
+header img {}
+
+header .subheading {}
+
+nav {
+    background: #3A79B5;
+}
+
+nav button {
+    display: contents;
+}
+
+nav ul {
+    color: #000000;
+}
+
+nav ul li {
+    #000000
+}
+
+nav ul li a {
+    color: #000000;
+}
+
+nav ul li.active a {
+    color: #F0F8FF;
+}
+
+nav ul li a:hover {
+    color: #0000FF;
+}
+
+main {}
+
+main h2 {}
+
+main figure { 
+    margin: 0 0 .2rem 2%; 
+    width:96%; 
+}
+
+main figure img { }
+
+footer {}
+
+footer h4{
+    font-weight: bold;
+}
