@@ -13,16 +13,22 @@ body {
 }
 
 header, nav, main, footer { 
-    max-width: 37.5em; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+    max-width: 64em; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
-header {}
+header {
+    min-width: 475px;
+}
 
 header h1 {
     font-family: Abril Fatface, sans-serif;
 }
 
-header img {}
+header img {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 header .subheading {}
 
@@ -32,18 +38,26 @@ nav {
 
 nav button {
     display: contents;
+    text-decoration: none;
+
+  list-style: none;
 }
 
 nav ul {
     color: #000000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
 }
 
 nav ul li {
-    #000000
+    color: #000000
 }
 
 nav ul li a {
     color: #000000;
+    display: block;
 }
 
 nav ul li.active a {
@@ -65,8 +79,37 @@ main figure {
 
 main figure img { }
 
-footer {}
+footer {
+    background: #3D5A77;
+}
 
 footer h4{
     font-weight: bold;
 }
+
+.hamburger {
+    display: block;
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem; 
+}
+
+
+
+.topnav { 
+    list-style: none; 
+    padding-left: 0; 
+}
+
+
+
+.topnav li { 
+    display: none;
+}
+
+
+
+.topnav a:hover {
+    color: black;
+}
+
