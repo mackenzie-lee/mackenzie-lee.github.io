@@ -1,157 +1,117 @@
-@media only screen and (min-width: 64em) {
-    /* header */
+@media screen and (min-width: 64em){
+    
+    @import url('https://fonts.googleapis.com/css?family=Karla');
 
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
-       
+body {
+  font-size: 16px;
+  font-family: Karla, sans-serif;
+}
 
+header, nav, main, footer{ 
+    min-width: 37.5em; 
+}
 
 header {
+    min-width: 475px;
+}
 
+header h1 {
+    font-family: Abril Fatface, sans-serif;
+}
 
-    font-size: large;
+header img {
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
-
+header .subheading{
+     margin: auto;
 }
 
 
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
     
+nav{
+   width: 100%;
+}
+    
+nav button{
+    display: none;
+}
 
-
-/* nav */
-
-
-       
-
-
-.navigation {
-
-
+nav ul {
     list-style-type: none;
-
-
-    margin: 0;
-
-
-    padding: 0;
-
-
-    overflow: hidden;
-
-
-    background-color: #143e7f;
-
-
+    background-color: #3A79B5;
+    width: auto;
 }
 
-
-
-
-
-.navigation li {
-
-
-    float: left;
-
-
+nav li {
+ float: left;
 }
 
-
-
-
-
-.navigation li a {
-
-
+nav li a {
+    text-transform: uppercase;
     display: block;
-
-
-    color: white;
-
-
-    font-size: x-large;
-
-
-    text-align: center;
-
-
-    padding: 14px 16px;
-
-
+    color: #000000;
     text-decoration: none;
-
-
 }
 
-
-
-
-
-/* Change the link color to #111 (black) on hover */
-
-
-.navigation li a:hover {
-
-
-    background-color: #b2cfff;
-
-
-    color: #143e7f;
-
-
+nav a:hover{
+     background-color: #E29B48;
 }
 
+main {
+  min-width: 450px;
+}
 
+#today{
+  float: left;   
+}
     
+#icon{
+    float: right;
+}
 
-
-/* main */
-
-
+main figure{
+    margin: 0 0 .2rem 2%; 
+    width:96%; 
+}
     
-
-
-.weathernow {
-
-
-    font-size: xx-large;
-
+#forecast{
+       
+    }
+    
+main figure img{
 
 }
 
+#burn{
+    float: right;    
+    }
 
-    .franklin li {
-        font-size: x-large;
+footer {
+  background: #3A79B5;
+  margin: auto;
+  width: 100%;
+  text-align: left;
+}
+
+    #address{
+        float: left;
+        margin-right: 100px;
     }
 
 
-.tenday {
-    display: block;
-    font-size: xx-large;
+.footer-bar{
+    background: #3D5A77;
+    margin: auto;
 }
-
-
-.hidesmall {
-    display: block;
-    margin: 15px 15px
-    }
-
-
-th {
-    font-size: x-large;
-}
-
-
-td {
-    font-size: x-large;
-}
-
-
-    
-
-
-
-
-
-}  /* end of media query */
-  
   }
+}
