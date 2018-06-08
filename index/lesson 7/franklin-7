@@ -22,7 +22,7 @@
   </header>
 
   <nav>
-      <button onclick="toggleNavMenu()">&#9776;</button>
+       <button onclick="toggleNavMenu()">&#9776;</button>
     <ul>
     	<li><a href="#">Home</a></li>
     	<li><a href="#">Franklin</a></li>
@@ -52,6 +52,11 @@
       <section id="icon">
       <h2>Weather Icon</h2>
       <img img src="image/sunny-franklin.jpeg" alt="Sunny Franklin City" width="300">
+      </section>
+      
+      <div class="button"><button type="button" onclick="doInputOutput()">Wind Chill</button>
+          <div id="outputDiv"></div>
+          </div>
       </section>
       
       <section id="forecast">
@@ -116,8 +121,12 @@
       <p>contact@yoururl.com</p>
       </section>
       
-      <p class="footer-bar">&copy;2020 &#183; All Rights Reserved</p>
+      <p class="footer-bar">&copy;2020 &#183; All Rights Reserved<span id="currentdate">Current Date Placeholder</span></p>
   </footer>
 
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
 </body>
 </html>
